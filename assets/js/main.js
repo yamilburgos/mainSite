@@ -5,13 +5,6 @@
 			tablet: '(min-width: 737px) and (max-width: 1200px)',
 			mobile: '(max-width: 736px)'
 		})
-		.viewport({
-			breakpoints: {
-				tablet: {
-					width: 1080
-				}
-			}
-		});
 
 	$(function() {
 		var	$window = $(window),
