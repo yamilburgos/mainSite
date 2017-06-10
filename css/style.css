@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 	/* Reset */
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td, aside, canvas, details, embed, figure, footer, header, hgroup, menu, nav, output, section {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -10,7 +10,7 @@
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	aside, details, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
@@ -22,11 +22,8 @@
 		list-style: none;
 	}
 
-	blockquote, q {
-		quotes: none;
-	}
 
-	blockquote:before, blockquote:after, q:before, q:after {
+	q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -1075,15 +1072,15 @@
 		animation: none !important;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		font-weight: 700;
 		color: #484d55;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
+	h1 a, h2 a, h3 a, h4 a, h5 a {
+		color: inherit;
+		text-decoration: none;
+	}
 
 	a {
 		-moz-transition: color .25s ease-in-out;
@@ -1094,19 +1091,13 @@
 		color: #717479;
 	}
 
-		a:hover {
-			text-decoration: none;
-		}
+	a:hover {
+		text-decoration: none;
+	}
 
 	strong, b {
 		font-weight: 700;
 		color: #484d55;
-	}
-
-	blockquote {
-		border-left: solid 0.5em #ddd;
-		padding: 1em 0 1em 2em;
-		font-style: italic;
 	}
 
 	em, i {
@@ -1124,12 +1115,6 @@
 		font-size: 0.8em;
 	}
 
-	sup {
-		position: relative;
-		top: -0.5em;
-		font-size: 0.8em;
-	}
-
 	.nobr {
 		white-space: nowrap;
 	}
@@ -1138,45 +1123,11 @@
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p, ul, ol, dl, table, form {
 		margin-bottom: 2em;
 	}
 
-/* Table */
-
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tbody tr:nth-child(2n+2) {
-				background: #f4f4f4;
-			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				text-align: left;
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default thead {
-				background: #484d55;
-				color: #fff;
-			}
-
-			table.default tfoot {
-				background: #eee;
-			}
-
-/* Form */
-
+	/* Form */
 	form label {
 		display: block;
 		font-weight: 700;
@@ -1202,13 +1153,13 @@
 		padding: 0.75em 1em 0.75em 1em;
 	}
 
-		form input[type="text"]:focus,
-		form input[type="email"]:focus,
-		form input[type="password"]:focus,
-		form select:focus,
-		form textarea:focus {
-			background: #f8f8f8;
-		}
+	form input[type="text"]:focus,
+	form input[type="email"]:focus,
+	form input[type="password"]:focus,
+	form select:focus,
+	form textarea:focus {
+		background: #f8f8f8;
+	}
 
 	form input[type="text"],
 	form input[type="email"]
@@ -1254,17 +1205,14 @@
 		border: 0;
 	}
 
-/* Section/Article */
 
-	section,
-	article {
+	/* Section */
+	section {
 		margin-bottom: 3em;
 	}
 
 	section > :last-child,
-	article > :last-child,
-	section:last-child,
-	article:last-child {
+	section:last-child {
 		margin-bottom: 0;
 	}
 
@@ -1536,7 +1484,7 @@
 				color: #fff;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
 			}
 
@@ -1583,7 +1531,7 @@
 		color: rgba(255, 255, 255, 0.5);
 	}
 
-		#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper h4, #footer-wrapper h5, #footer-wrapper h6, #footer-wrapper strong, #footer-wrapper b, #footer-wrapper a {
+		#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper h4, #footer-wrapper h5, #footer-wrapper strong, #footer-wrapper b, #footer-wrapper a {
 			color: #fff;
 		}
 
@@ -1742,8 +1690,8 @@
 		margin: 2em 0 2em 0;
 	}
 
-	/* Section/Article */
-	section, article {
+	/* Section */
+	section {
 		margin: 0 0 4em 0;
 	}
 
@@ -2224,7 +2172,7 @@
 			letter-spacing: 0;
 		}
 
-		h2, h3, h4, h5, h6 {
+		h2, h3, h4, h5 {
 			font-size: 1.2em;
 			letter-spacing: 0.05em;
 			margin: 0 0 1em 0;
