@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
 	/* Reset */
-	html, body, div, span, applet, object, h1, h2, h3, h4, p, pre, a, abbr, big, del, em, img, ins, kbd, s, samp, small, strike, sub, tt, var, b, u, i, dl, dt, ul, li, form, label, table, caption, tr, th, td, aside, embed, footer, header, nav, section {
+	html, body, div, span, applet, object, h1, h2, h3, p, pre, a, abbr, big, del, em, img, ins, s, samp, small, sub, tt, var, b, u, i, dl, dt, ul, li, form, label, table, caption, tr, th, td, aside, embed, footer, header, nav, section {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -61,83 +61,6 @@
 
 	.container {
 		width: 960px;
-	}
-
-	@media screen and (max-width: 736px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 125%;
-			min-width: 100%;
-		}
-
-		.container.\37 5\25 {
-			width: 75%;
-		}
-
-		.container.\35 0\25 {
-			width: 50%;
-		}
-
-		.container.\32 5\25 {
-			width: 25%;
-		}
-
-		.container {
-			width: 100% !important;
-		}
-	}
-
-	@media screen and (min-width: 737px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 1500px;
-			min-width: 1200px;
-		}
-
-		.container.\37 5\25 {
-			width: 900px;
-		}
-
-		.container.\35 0\25 {
-			width: 600px;
-		}
-
-		.container.\32 5\25 {
-			width: 300px;
-		}
-
-		.container {
-			width: 1200px;
-		}
-
-	}
-
-	@media screen and (min-width: 737px) and (max-width: 1200px) {
-
-		.container.\31 25\25 {
-			width: 100%;
-			max-width: 1250px;
-			min-width: 1000px;
-		}
-
-		.container.\37 5\25 {
-			width: 750px;
-		}
-
-		.container.\35 0\25 {
-			width: 500px;
-		}
-
-		.container.\32 5\25 {
-			width: 250px;
-		}
-
-		.container {
-			width: 1000px;
-		}
-
 	}
 
 	/* Grid */
@@ -610,7 +533,7 @@
 		}
 	}
 
-	@media screen and (min-width: 737px) and (max-width: 1200px) {
+	@media screen and (min-width: 737px) and (max-width: 1250px) {
 		.row > * {
 			padding: 35px 0 0 35px;
 		}
@@ -1062,12 +985,12 @@
 		animation: none !important;
 	}
 
-	h1, h2, h3, h4 {
+	h1, h2, h3 {
 		font-weight: 700;
 		color: #484d55;
 	}
 
-	h1 a, h2 a, h3 a, h4 a {
+	h1 a, h2 a, h3 a {
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1462,7 +1385,7 @@ ul.style3 li:first-child {
 				color: #fff;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 b, .wrapper.style1 a {
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 b, .wrapper.style1 a {
 				color: #fff;
 			}
 
@@ -1500,7 +1423,7 @@ ul.style3 li:first-child {
 		color: rgba(255, 255, 255, 0.5);
 	}
 
-		#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper h4, #footer-wrapper b, #footer-wrapper a {
+		#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper b, #footer-wrapper a {
 			color: #fff;
 		}
 
@@ -2052,7 +1975,7 @@ ul.style3 li:first-child {
 }
 
 /* Tablet Only */
-@media screen and (min-width: 737px) and (max-width: 1200px) {
+@media screen and (min-width: 737px) and (max-width: 1250px) {
 	/* Basic */
 	body {
 		min-width: 1000px;
@@ -2134,7 +2057,7 @@ ul.style3 li:first-child {
 			letter-spacing: 0;
 		}
 
-		h2, h3, h4 {
+		h2, h3 {
 			font-size: 1.2em;
 			letter-spacing: 0.05em;
 			margin: 0 0 1em 0;
