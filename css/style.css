@@ -1,97 +1,67 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
-	/* Reset */
-	html, body, div, span, applet, object, h1, h2, h3, p, pre, a, abbr, big, del, em, img, ins, s, samp, small, sub, tt, var, b, u, i, dl, dt, ul, li, form, label, table, caption, tr, th, td, aside, embed, footer, header, nav, section {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
-	aside, footer, header, nav, section {
-		display: block;
-	}
+footer, header, nav, section {
+	display: block;
+}
 
-	body {
-		line-height: 1;
-		-webkit-text-size-adjust: none;
-	}
+body {
+	line-height: 1;
+	-webkit-text-size-adjust: none;
+}
 
-	ul {
-		list-style: none;
-	}
+ul {
+	list-style: none;
+}
 
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-	/* Box Model */
-	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+/* Box Model */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-	/* Containers */
-	.container {
-		margin-left: auto;
-		margin-right: auto;
-	}
+/* Containers */
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	.container.\31 25\25 {
-		width: 100%;
-		max-width: 1200px;
-		min-width: 960px;
-	}
+/* Grid */
+.row {
+	border-bottom: solid 1px transparent;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-	.container.\37 5\25 {
-		width: 720px;
-	}
+.row > * {
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-	.container.\35 0\25 {
-		width: 480px;
-	}
-
-	.container.\32 5\25 {
-		width: 240px;
-	}
-
-	.container {
-		width: 960px;
-	}
-
-	/* Grid */
-	.row {
-		border-bottom: solid 1px transparent;
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-	.row > * {
-		float: left;
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-	.row:after, .row:before {
-		content: '';
-		display: block;
-		clear: both;
-		height: 0;
-	}
-
-	.row.uniform > * > :first-child {
-		margin-top: 0;
-	}
-
-	.row.uniform > * > :last-child {
-		margin-bottom: 0;
-	}
+.row:after, .row:before {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
 
 	.row.\30 \25 > * {
 		padding: 0 0 0 0px;
@@ -99,14 +69,6 @@
 
 	.row.\30 \25 {
 		margin: 0 0 -1px 0px;
-	}
-
-	.row.uniform.\30 \25 > * {
-		padding: 0px 0 0 0px;
-	}
-
-	.row.uniform.\30 \25 {
-		margin: 0px 0 -1px 0px;
 	}
 
 	.row > * {
@@ -117,28 +79,12 @@
 		margin: 0 0 -1px -40px;
 	}
 
-	.row.uniform > * {
-		padding: 40px 0 0 40px;
-	}
-
-	.row.uniform {
-		margin: -40px 0 -1px -40px;
-	}
-
 	.row.\32 00\25 > * {
 		padding: 0 0 0 80px;
 	}
 
 	.row.\32 00\25 {
 		margin: 0 0 -1px -80px;
-	}
-
-	.row.uniform.\32 00\25 > * {
-		padding: 80px 0 0 80px;
-	}
-
-	.row.uniform.\32 00\25 {
-		margin: -80px 0 -1px -80px;
 	}
 
 	.row.\31 50\25 > * {
@@ -149,14 +95,6 @@
 		margin: 0 0 -1px -60px;
 	}
 
-	.row.uniform.\31 50\25 > * {
-		padding: 60px 0 0 60px;
-	}
-
-	.row.uniform.\31 50\25 {
-		margin: -60px 0 -1px -60px;
-	}
-
 	.row.\35 0\25 > * {
 		padding: 0 0 0 20px;
 	}
@@ -165,28 +103,12 @@
 		margin: 0 0 -1px -20px;
 	}
 
-	.row.uniform.\35 0\25 > * {
-		padding: 20px 0 0 20px;
-	}
-
-	.row.uniform.\35 0\25 {
-		margin: -20px 0 -1px -20px;
-	}
-
 	.row.\32 5\25 > * {
 		padding: 0 0 0 10px;
 	}
 
 	.row.\32 5\25 {
 		margin: 0 0 -1px -10px;
-	}
-
-	.row.uniform.\32 5\25 > * {
-		padding: 10px 0 0 10px;
-	}
-
-	.row.uniform.\32 5\25 {
-		margin: -10px 0 -1px -10px;
 	}
 
 	.\31 2u, .\31 2u\24 {
@@ -320,10 +242,7 @@
 		margin-left: 8.33333%;
 	}
 
-
-
-
-
+/*=================================================*/
 	@media screen and (min-width: 737px) {
 		.row > * {
 			padding: 50px 0 0 50px;
@@ -365,13 +284,9 @@
 			margin: -12.5px 0 -1px -12.5px;
 		}
 }
-
-
-
-
-
-
-	@media screen and (min-width: 737px) and (max-width: 1250px) {
+/*=================================================*/
+/*=================================================*/
+@media screen and (min-width: 737px) and (max-width: 1250px) {
 		.row > * {
 			padding: 35px 0 0 35px;
 		}
@@ -499,10 +414,9 @@
 			clear: left;
 		}
 	}
-
-
-
-	@media screen and (max-width: 736px) {
+/*=================================================*/
+/*=================================================*/
+@media screen and (max-width: 736px) {
 		.row > * {
 			padding: 10px 0 0 10px;
 		}
@@ -674,41 +588,39 @@
 			margin-left: 8.33333%;
 		}
 }
-
-
+/*=================================================*/
 
 /* Basic */
+@-ms-viewport {
+	width: device-width;
+}
 
-	@-ms-viewport {
-		width: device-width;
-	}
+body, input, textarea, select {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: #919499;
+}
 
-	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-		color: #919499;
-	}
+body.is-loading * {
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-ms-transition: none !important;
+	transition: none !important;
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
 
-	body.is-loading * {
-		-moz-transition: none !important;
-		-webkit-transition: none !important;
-		-ms-transition: none !important;
-		transition: none !important;
-		-moz-animation: none !important;
-		-webkit-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
+h1, h2, h3 {
+	font-weight: 700;
+	color: #484d55;
+}
 
-	h1, h2, h3 {
-		font-weight: 700;
-		color: #484d55;
-	}
-
-	h1 a, h2 a, h3 a {
-		color: inherit;
-		text-decoration: none;
-	}
+h1 a, h2 a, h3 a {
+	color: inherit;
+	text-decoration: none;
+}
 
 	a {
 		-moz-transition: color .25s ease-in-out;
@@ -844,18 +756,6 @@
 		margin-bottom: 0;
 	}
 
-	header.style1 {
-		text-align: center;
-	}
-
-	header.style1 h2 {
-		font-weight: 700;
-	}
-
-	header.style1 p {
-		color: #b1b4b9;
-	}
-
 	/* Image */
 	.image {
 		display: inline-block;
@@ -866,31 +766,31 @@
 		width: 100%;
 	}
 
-		.image.fit {
-			display: block;
-			width: 100%;
-		}
+	.image.fit {
+		display: block;
+		width: 100%;
+	}
 
-		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
-		}
+	.image.left {
+		float: left;
+		margin: 0 2em 2em 0;
+	}
 
-		.image.centered {
-			display: block;
-			margin: 0 0 2em 0;
-		}
+	.image.centered {
+		display: block;
+		margin: 0 0 2em 0;
+	}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+	.image.centered img {
+		margin: 0 auto;
+		width: auto;
+	}
 
-		.image.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
-		}
+	.image.featured {
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
 
 	/* Button */
 	.button {
@@ -1197,6 +1097,7 @@ ul.style3 li:first-child {
 	color: #fff;
 }
 
+/*=================================================*/
 /* Tablet Only */
 @media screen and (min-width: 737px) and (max-width: 1250px) {
 	/* Basic */
@@ -1262,12 +1163,14 @@ ul.style3 li:first-child {
 		margin: 3em 0 0 0;
 	}
 }
+/*=================================================*/
 
 /* Mobile Only */
 #navPanel, #titleBar {
 	display: none;
 }
 
+/*=================================================*/
 @media screen and (max-width: 736px) {
 		/* Basic */
 		html, body {
@@ -1366,18 +1269,6 @@ ul.style3 li:first-child {
 
 		.feature-list p {
 			margin: 0 0 0 48px;
-		}
-
-		/* Box */
-		.box.post-excerpt .image.left {
-			position: relative;
-			top: 0.25em;
-			width: 25%;
-			margin: 0;
-		}
-
-		.box.post-excerpt h3, .box.post-excerpt p {
-			margin-left: 32.5%;
 		}
 
 		/* Off-Canvas Navigation */
@@ -1652,3 +1543,4 @@ ul.style3 li:first-child {
 			margin-top: 0;
 		}
 }
+/*=================================================*/
