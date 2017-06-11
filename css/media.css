@@ -47,26 +47,12 @@
 		margin: 0.25em 0 0.5em 0;
 	}
 
-	/* Button */
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
 	.button {
 		padding: 0 2.25em 0 2.25em;
 		font-size: 0.9em;
 		min-width: 12em;
 		height: 4em;
 		line-height: 4em;
-	}
-
-	input[type="button"].big,
-	input[type="submit"].big,
-	input[type="reset"].big,
-	button.big,
-	.button.big {
-		font-size: 1em;
-		min-width: 14em;
 	}
 
 	/* List */
