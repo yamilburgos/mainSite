@@ -25,10 +25,6 @@
 	}
 
 	/* Form */
-	form label {
-		margin: 0.25em 0 0.5em 0;
-	}
-
 	.button {
 		padding: 0 2.25em 0 2.25em;
 		font-size: 0.9em;
