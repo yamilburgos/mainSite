@@ -207,31 +207,6 @@ form .formerize-placeholder {
 	font-style: italic;
 }
 
-form ::-webkit-input-placeholder {
-	color: #555 !important;
-	font-style: italic;
-	line-height: 1.35em;
-}
-
-form :-moz-placeholder {
-	color: #555 !important;
-	font-style: italic;
-}
-
-form ::-moz-placeholder {
-	color: #555 !important;
-	font-style: italic;
-}
-
-form :-ms-input-placeholder {
-	color: #555 !important;
-	font-style: italic;
-}
-
-form ::-moz-focus-inner {
-	border: 0;
-}
-
 /* Section */
 section {
 	margin-bottom: 3em;
@@ -243,10 +218,6 @@ section:last-child {
 }
 
 /* Image */
-.image {
-	display: inline-block;
-}
-
 .image img {
 	display: block;
 	width: 100%;
@@ -320,7 +291,6 @@ button.style2:active {
 }	
 
 /* Wrappers */
-
 .wrapper {
 	position: relative;
 }
@@ -402,23 +372,17 @@ button.style2:active {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper b, #footer-wrapper a {
+#footer-wrapper a {
 	color: #fff;
 }
 
 #footer-wrapper form input[type="text"],
-#footer-wrapper form input[type="email"],
-#footer-wrapper form input[type="password"],
-#footer-wrapper form select,
 #footer-wrapper form textarea {
 	background: #ccc;
 	box-shadow: none;
 }
 
 #footer-wrapper form input[type="text"]:focus,
-#footer-wrapper form input[type="email"]:focus,
-#footer-wrapper form input[type="password"]:focus,
-#footer-wrapper form select:focus,
 #footer-wrapper form textarea:focus {
 	background: #fff;
 }
@@ -623,16 +587,6 @@ button.style2:active {
 		position: relative;
 		padding: 4px 0 0 48px;
 		line-height: 1.25em;
-	}
-
-	.feature-list h3:before {
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 32px;
-		height: 32px;
-		line-height: 32px;
-		font-size: 16px;
 	}
 
 	.feature-list p {
