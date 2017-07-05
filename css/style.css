@@ -155,11 +155,7 @@ h1 a, h2 a, h3 a {
 
 a {
 	transition: color .25s ease-in-out;
-	text-decoration: underline;
 	color: #717479;
-}
-
-a:hover {
 	text-decoration: none;
 }
 
@@ -253,29 +249,15 @@ section:last-child {
 	background-color: #f98780;
 }
 
-button.style2:hover {
-	box-shadow: inset 0px 0px 2px 0px #606167;
-}
-
 .button.style1 {
 	background: #e97770 url("../images/overlay.png");
 	color: #fff;
-}
-
-.button.style2 {
-	background: none;
-	color: #606167;
-	box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 }
 
 .button.style1:active {
 	background-color: #d96760;
 }
 			
-button.style2:active {
-	box-shadow: inset 0px 0px 2px 0px #202127;
-}
-
 /* Feature List */
 .feature-list h3 {
 	color: #e97770 !important;
@@ -401,10 +383,6 @@ button.style2:active {
 	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
 }
 
-#footer-wrapper .button.style2:active {
-	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
-}
-
 #footer-wrapper .title {
 	background: #282b34 url("../images/overlay.png");
 	color: #eee;
@@ -417,6 +395,14 @@ button.style2:active {
 
 #footer-wrapper .feature-list h3:before {
 	background: #3d4249 url("../images/overlay.png");
+}
+
+.footerInfo {
+	text-decoration: underline;
+}
+
+.footerInfo:hover {
+	text-decoration: none;
 }
 
 /* Logo */
@@ -558,19 +544,6 @@ button.style2:active {
 		padding: 1em 0 1em 0;
 		max-width: 30em;
 		margin: 0 auto;
-	}
-
-	/* List */
-	ul.actions {
-		margin: 2em 0 0 0;
-	}
-
-	ul.actions li {
-		margin: 15px 0 0 0;
-	}
-
-	form ul.actions {
-		margin: 1em 0 0 0;
 	}
 
 	/* Feature List */

@@ -29,16 +29,6 @@
 		line-height: 4em;
 	}
 
-	/* List */
-	ul.actions li {
-		display: inline-block;
-		margin: 0 0.75em 0 0.75em;
-	}
-
-	form ul.actions {
-		margin-top: 0;
-	}
-
 	/* Feature List */
 	.feature-list section {
 		padding-top: 2em;
