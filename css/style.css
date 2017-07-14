@@ -17,6 +17,7 @@ footer, nav, section {
 
 body {
 	line-height: 1;
+	text-align: center
 }
 
 ul {
@@ -95,12 +96,7 @@ body.is-loading * {
 
 h3 {
 	font-weight: 700;
-	color: #484d55;
-}
-
-h3 a {
-	color: inherit;
-	text-decoration: none;
+	color: #e97770;
 }
 
 a {
@@ -179,7 +175,6 @@ section:last-child {
 	transition: all .25s ease-in-out;
 	display: inline-block;
 	background: #444;
-	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.25em;
@@ -209,7 +204,6 @@ section:last-child {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	text-align: center;
 	text-transform: uppercase;
 	display: block;
 	font-weight: 700;
@@ -255,20 +249,6 @@ section:last-child {
 	background: #fff;
 }
 
-#footer-wrapper .button {
-	color: #fff;
-	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
-}
-
-#footer-wrapper .button:hover {
-	color: #fff;
-	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
-}
-
-#footer-wrapper .button:active {
-	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
-}
-
 #footer-wrapper .title {
 	background: #282b34 url("../images/overlay.png");
 	color: #eee;
@@ -282,20 +262,7 @@ section:last-child {
 	text-decoration: none;
 }
 
-/* Highlights */
-#highlights .highlight {
-	text-align: center;
-}
-
-#highlights .highlight h3 {
-	color: #e97770;
-}
-
 /* Copyright */
-#copyright {
-	text-align: center;
-}
-
 #copyright ul {
 	display: inline-block;
 	border-radius: 0.35em;
