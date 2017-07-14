@@ -64,8 +64,7 @@
 		padding: 12em 0;
 	}
 
-	/* Logo */
-	#logo {
+	.siteTitle {
 		position: absolute;
 		height: 5em;
 		top: 50%;
@@ -73,14 +72,18 @@
 		width: 100%;
 		text-align: center;
 		margin-top: -0.5em;
-	}
-
-	#logo h1 {
 		font-size: 2em;
 		letter-spacing: 0.25em;
 	}
 
-	#logo p {
+	.siteSubtitle {
+		position: absolute;
+		height: 5em;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: -0.5em;
 		margin: 1.25em 0 0 0;
 		display: block;
 		letter-spacing: 0.2em;
