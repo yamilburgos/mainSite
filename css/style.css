@@ -120,7 +120,7 @@ form textarea {
 	border: 0;
 	background: #eee;
 	box-shadow: inset 0px 0px 1px 0px #a0a1a7;
-	border-radius: 0.35em;
+	border-radius: 0.5em;
 	width: 100%;
 	padding: 0.75em 1em 0.75em 1em;
 }
@@ -141,11 +141,6 @@ input[type="password"] {
 
 form textarea {
 	min-height: 10em;
-}
-
-form .formerize-placeholder {
-	color: #555 !important;
-	font-style: italic;
 }
 
 /* Section */
@@ -183,7 +178,7 @@ section:last-child {
 	border: 0;
 	outline: 0;
 	cursor: pointer;
-	background: #e97770 url("../images/overlay.png");
+	background: #e97770;
 	color: #fff;
 }
 
@@ -208,14 +203,11 @@ section:last-child {
 	display: block;
 	font-weight: 700;
 	letter-spacing: 0.25em;
-}
-
-.wrapper.style3 {
-	background: #f3f3f3 url("../images/overlay.png");
+	border-radius: 0.75em 0.75em 0px 0px;
 }
 
 .wrapper.style3 .title {
-	background: #f3f3f3 url("../images/overlay.png");
+	background: #ffffff;
 	color: #484d55;
 }
 
@@ -229,7 +221,7 @@ section:last-child {
 }
 
 #footer-wrapper {
-	background: #282b34 url("../images/overlay.png");
+	background: #282b34;
 	color: #eee;
 	color: rgba(255, 255, 255, 0.5);
 }
@@ -250,7 +242,7 @@ section:last-child {
 }
 
 #footer-wrapper .title {
-	background: #282b34 url("../images/overlay.png");
+	background: #282b34;
 	color: #eee;
 }
 
@@ -265,7 +257,7 @@ section:last-child {
 /* Copyright */
 #copyright ul {
 	display: inline-block;
-	border-radius: 0.35em;
+	border-radius: 0.75em;
 	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
 	color: rgba(255, 255, 255, 0.25);
 }
