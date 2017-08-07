@@ -1,0 +1,52 @@
+@media screen and (min-width: 737px) and (max-width: 1250px) {
+    .container {
+        width: 1000px;
+    }
+    .row>* {
+        padding: 35px 0 0 35px;
+    }
+    .row {
+        margin: -35px 0 -1px -35px;
+    }
+    .row.\31 50\25>* {
+        padding: 52.5px 0 0 52.5px;
+    }
+    .row.\31 50\25 {
+        margin: -52.5px 0 -1px -52.5px;
+    }
+    .row.\35 0\25>* {
+        padding: 17.5px 0 0 17.5px;
+    }
+    .row.\35 0\25 {
+        margin: -17.5px 0 -1px -17.5px;
+    }
+    /* Basic */
+    body {
+        min-width: 1000px;
+        font-size: 12pt;
+        line-height: 1.5em;
+        letter-spacing: 0.015em;
+    }
+    input,
+    select,
+    textarea {
+        font-size: 12pt;
+        line-height: 1.5em;
+        letter-spacing: 0.015em;
+    }
+    body {
+        min-width: 960px;
+    }
+    /* Wrappers */
+    .wrapper {
+        padding: 4em 0 7em 0;
+    }
+    .siteTitle {
+        margin-top: -0.5em !important;
+        font-size: 3em;
+    }
+    /* Copyright */
+    #copyright {
+        margin: 3em 0 0 0;
+    }
+}
